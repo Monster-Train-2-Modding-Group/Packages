@@ -16,3 +16,4 @@ Provided in the Repo is a .nuspec file, when a new version of the game is releas
 2. Go to Local files and copy the provided .nuspec
 3. Update the nuspec version to be the build ID, also increment the minor version. If it is a major content version, increment the major version.
 4. run `nuget pack .nuspec`
+5. Upload the built package
