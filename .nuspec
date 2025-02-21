@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MonsterTrain2.Api</id>
+    <version>0.1.17442077</version>
+    <authors>Jackson Levitt</authors>
+    <owners>Your Organization</owners>
+    <description>Monster Train 2 Code</description>
+    <projectUrl>https://github.com/Monster-Train-2-Modding-Group/Packages</projectUrl>
+    <RepositoryUrl>https://github.com/Monster-Train-2-Modding-Group/Packages</RepositoryUrl>
+    <dependencies>
+        <group targetFramework="netstandard2.1">
+        </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="MonsterTrain2-Demo_Data\Managed\Assembly-CSharp.dll" target="lib/netstandard2.1" />
+    <file src="MonsterTrain2-Demo_Data\Managed\Assembly-CSharp-firstpass.dll" target="lib/netstandard2.1" />
+  </files>
+</package>
